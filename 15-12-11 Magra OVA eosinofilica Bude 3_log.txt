@@ -1,0 +1,965 @@
+Experiment: 15-12-11 Magra OVA eosinofilica Bude 3
+
+General 
+	Started:      	12/11/2015 10:54:41 AM
+	Last modifed: 	12/11/2015 11:49:37 AM
+	Events:		116
+	Data sets:	84 (including calibration data sets)
+	Data sets:	78 (excluding calibration data sets)
+ 
+	Module:       	Module 1
+		Parameters: 
+			Description: Module 1 (FV-M1, 1.7 ml)
+			Module Standard Weight: 0.02 kg
+			Stroke Volume: 1.7442E-6 m3
+			Tidal Volume: 2E-7 m3
+			Normal breathing frequency: 2 /s
+			Minimum breathing frequency: 0.1 /s
+			Maximum breathing frequency: 10 /s
+			Normal tube resistance: 5.4177E6 Pa.s/m3
+			Normal shunt elastance: 1.5799E10 Pa/m3
+			Normal tube inertance: 17008 Pa.s.s/m3
+			Park Rate: 1 
+			Expiratory valve off delay: 0.01 
+			Expiratory valve on delay: 0.01 
+			Refill valve off delay: 0.01 
+			Refill valve on delay: 0.01 
+			Controller numerator: 18.182 
+			Controller denominator: 0.05 
+			Volume gain: 1.1 
+			Pressure Gain: 0.025 
+			Pressure i Gain: 1E-5 
+			Pressure Alpha: 0 
+			Pressure Max Rate: 2 
+			Controller Calibration Gain: 0.0125 
+			State of refill valve during inspiration: Closed 
+			State of expiratory valve during inspiration: Closed 
+			State of refill valve during exhalation: Open 
+			State of expiratory valve during exhalation: Open 
+			State of refill valve during channel calibration: Closed 
+			State of expiratory valve during channel calibration: Closed 
+			Controller Load compensation proportional: 0 
+			Controller Load compensation derivative: 0 
+			Percent voltage applied during auto calibration - forward: 42.686 
+			Percent voltage applied during auto calibration - backward: 57.338 
+			Mask for state of expiratory valve during park phase of perturbation: 0 
+			Mask for state of expiratory valve during equilibrate phase of perturbation: 0 
+			Mask for state of expiratory valve during post signal phase of perturbation: 0 
+			Mask for state of expiratory valve during close phase of perturbation: 0 
+			Mask for state of refill valve during park phase of perturbation: 0 
+			Mask for state of refill valve during equilibrate phase of perturbation: 0 
+			Mask for state of refill valve during post signal phase of perturbation: 0 
+			Mask for state of refill valve during close phase of perturbation: 0 
+ 
+	Complete path:	C:\Users\Wothan\Documents\My flexiVent data\15-12-11 Magra OVA eosinofilica Bude 3.exp
+	Environment:  	FV.exe Version 5.2, Service pack 1, Build 506
+	Operator:     	Cida
+	Template name:	Mouse Default v5.2.1..ext
+	Template date:	27/03/09 12:07:05
+	Comments:     	Default template provided for mouse experiments.
+
+
+SCIREQ Data Acquisition Map 
+	Licenses - DAC08 	False
+	Licenses - inExpose	False
+	Licenses - GLP   	False
+	General - Title  	
+	General - Description	
+	General - Major version	0
+	General - Minor version	0
+	General - Creation timestamp	8/2/2006 1:10:35 PM
+	General - Modified timestamp	8/2/2006 1:10:35 PM
+	General - Created by	
+	General - Supplier	SCIREQ Inc.
+	Channels         
+		Vol [mL] - Volume [ FilteredHWChannel ]
+		Properties       
+			General - Title: Volume
+			General - Abbreviation: Vol
+			Display - Color: $003333FF
+			Display - Color mode: Fixed (channel colour)
+			Display - Display mode: Line (Continuous display)
+			Display - Axis title: Vol
+			Anti-aliasing filter - Enabled: True
+			Anti-aliasing filter - Cutoff frequency: 30 /s
+			Anti-aliasing filter - Type: Bessel
+
+		Pcyl [cmH2O] - Cylinder pressure [ FilteredHWChannel ]
+		Properties       
+			General - Title: Cylinder pressure
+			General - Abbreviation: Pcyl
+			Display - Color: clBlue
+			Display - Color mode: Fixed (channel colour)
+			Display - Display mode: Line (Continuous display)
+			Display - Axis title: Pcyl
+			Anti-aliasing filter - Enabled: True
+			Anti-aliasing filter - Cutoff frequency: 30 /s
+			Anti-aliasing filter - Type: Bessel
+
+		Pao [cmH2O] - Airway pressure [ FilteredHWChannel ]
+		Properties       
+			General - Title: Airway pressure
+			General - Abbreviation: Pao
+			Display - Color: clNavy
+			Display - Color mode: Fixed (channel colour)
+			Display - Display mode: Line (Continuous display)
+			Display - Axis title: Pao
+			Anti-aliasing filter - Enabled: True
+			Anti-aliasing filter - Cutoff frequency: 30 /s
+			Anti-aliasing filter - Type: Bessel
+
+
+Controller information
+	EC version:   	6.0.2, build 130
+	Sample rate:  	256 /s
+	EDS information  
+		EDS Date         	6/26/2008
+		Serial Number    	1043226
+		Board revision   	M
+		Instrument model 	EC Network controller
+		Manufacturer     	SCIREQ
+		Initialized by   	ct
+		Manufacturing Date	6/26/2008
+
+Subjects 
+	Name:: Magra OVA eosinofilica Bude 3
+	Gender: F
+	Strain: Balbi
+	Group: 
+	Weight: 24 g
+	Comments: (None)
+ 
+
+Events 
+12/11/2015 10:54:44 AM	Subject: Add Magra OVA eosinofilica Bude 3
+			Event ID: 1
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 10:55:29 AM	Autocalibration: Extended: mean=95.00%, St.Dev=0.01%, Retracted: mean=95.00%, St.Dev=0.01%
+			Event ID: 2
+			Details: Part of the hardware warmup time has been skipped.
+			Comments: ( None )
+ 
+12/11/2015 10:56:56 AM	Channel calibration: Cylinder pressure
+			Event ID: 3
+			Comments: ( None )
+			Channel = 1, Range Max = 59.552 cmH2O, Range Min = -60.183 cmH2O, Resolution = 0.029232 cmH2O
+ 
+12/11/2015 10:56:56 AM	Channel calibration: Airway pressure
+			Event ID: 4
+			Comments: ( None )
+			Channel = 2, Range Max = 57.732 cmH2O, Range Min = -61.25 cmH2O, Resolution = 0.029048 cmH2O
+ 
+12/11/2015 10:57:22 AM	Tube calibration: TLC, Closed
+			Event ID: 5
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Es: 154.1 cmH2O/mL
+			Rs: 3805.4 cmH2O.s/mL
+			COD: 0.99903
+ 
+12/11/2015 10:57:38 AM	Tube calibration: TLC, Opened
+			Event ID: 6
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rt: 0.29603 cmH2O.s/mL
+			WRI: 0
+ 
+12/11/2015 10:57:30 AM	Tube calibration: SnapShot-150 v5.2, Closed
+			Event ID: 7
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 10:57:46 AM	Tube calibration: SnapShot-150 v5.2, Opened
+			Event ID: 8
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 10:57:33 AM	Tube calibration: Quick Prime-3 v5.2, Closed
+			Event ID: 9
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Es: 162.51 cmH2O/mL
+			Rs: 3437.7 cmH2O.s/mL
+			COD: 0.99388
+ 
+12/11/2015 10:57:49 AM	Tube calibration: Quick Prime-3 v5.2, Opened
+			Event ID: 10
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rt: 0.31082 cmH2O.s/mL
+			WRI: 79.75 %
+ 
+12/11/2015 11:03:26 AM	Ventilation: Pressure limited, Vt = 10 mL/kg, I:E = 66.667 %, RR = 150 /min, Pmax = 30 cmH2O
+			Event ID: 11
+			Details: Default settings restored
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, RR = 150 /min, I:E = 66.667 %, End inspiratory pause = 0 s, Pmax = 30 cmH2O, Vt/weight = 10 mL/kg
+ 
+12/11/2015 11:07:34 AM	Data set: Magra OVA eosinofilica Bude 3, TLC
+			Event ID: 12
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			PEEP = 1.4845 cmH2O, Ptr,mean = 22.894 cmH2O, Ptr,max = 30.623 cmH2O, Ptr,min = 1.4529 cmH2O, Ptr,p-p = 29.17 cmH2O
+			Vtr,p-p = 1.2938 mL, Pcyl,p-p = 29.195 cmH2O, Vol,p-p = 1.5187 mL, Vend = 1.5113 mL, Vend/wt = 62.972 mL/kg
+			Vtr,end = 1.2888 mL, Ptr,end = 30.26 cmH2O
+ 
+12/11/2015 11:21:58 AM	Script start: 15_09_15_PBS_Cida_Z, Title: Dose Resposta - IV Mouse
+			Event ID: 13
+			Comments: ( None )
+ 
+12/11/2015 11:21:58 AM	Ventilation: Quasi-sinusoidal, Vt = 10 mL/kg, RR = 150 br/min
+			Event ID: 14
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, Vt/weight = 10 mL/kg, RR = 150 br/min
+ 
+12/11/2015 11:21:58 AM	User marker: Realizando 2 manobras TLC
+			Event ID: 15
+			Details: From script '15_09_15_PBS_Cida_Z'
+			Comments: Realizando 2 manobras TLC
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 11:22:00 AM	Data set: Magra OVA eosinofilica Bude 3, TLC
+			Event ID: 16
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			PEEP = 2.2027 cmH2O, Ptr,mean = 22.998 cmH2O, Ptr,max = 30.436 cmH2O, Ptr,min = 2.1848 cmH2O, Ptr,p-p = 28.251 cmH2O
+			Vtr,p-p = 0.95002 mL, Pcyl,p-p = 28.255 cmH2O, Vol,p-p = 1.1687 mL, Vend = 1.1659 mL, Vend/wt = 48.579 mL/kg
+			Vtr,end = 0.94817 mL, Ptr,end = 30.191 cmH2O
+ 
+12/11/2015 11:22:13 AM	Data set: Magra OVA eosinofilica Bude 3, TLC
+			Event ID: 17
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			PEEP = 2.5303 cmH2O, Ptr,mean = 23.025 cmH2O, Ptr,max = 30.539 cmH2O, Ptr,min = 2.499 cmH2O, Ptr,p-p = 28.04 cmH2O
+			Vtr,p-p = 0.88172 mL, Pcyl,p-p = 28.058 cmH2O, Vol,p-p = 1.0969 mL, Vend = 1.0953 mL, Vend/wt = 45.638 mL/kg
+			Vtr,end = 0.87957 mL, Ptr,end = 30.183 cmH2O
+ 
+12/11/2015 11:22:19 AM	User marker: PBS
+			Event ID: 18
+			Details: From script '15_09_15_PBS_Cida_Z'
+			Comments: PBS
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 11:22:51 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 19
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.23323 cmH2O.s/mL, I = 0.00020756 cmH2O.s.s/mL, G = 3.5336 cmH2O/mL, H = 18.191 cmH2O/mL, eta = 0.19425
+			CODcp = 0.99024, PEEP = 2.5851 cmH2O, Ptr,mean = 3.2689 cmH2O, Ptr,max = 4.3289 cmH2O, Ptr,min = 2.3345 cmH2O
+			Ptr,p-p = 1.9943 cmH2O, Vtr,p-p = 0.084658 mL, Pcyl,p-p = 2.6817 cmH2O, Vol,p-p = 0.095483 mL
+ 
+12/11/2015 11:23:02 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 20
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24998 cmH2O.s/mL, I = 0.00014416 cmH2O.s.s/mL, G = 3.5026 cmH2O/mL, H = 19.274 cmH2O/mL, eta = 0.18173
+			CODcp = 0.98914, PEEP = 2.52 cmH2O, Ptr,mean = 3.135 cmH2O, Ptr,max = 4.2592 cmH2O, Ptr,min = 2.1384 cmH2O
+			Ptr,p-p = 2.1207 cmH2O, Vtr,p-p = 0.084279 mL, Pcyl,p-p = 2.7155 cmH2O, Vol,p-p = 0.09552 mL
+ 
+12/11/2015 11:23:12 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 21
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.23093 cmH2O.s/mL, I = 0.00015913 cmH2O.s.s/mL, G = 3.5663 cmH2O/mL, H = 19.158 cmH2O/mL, eta = 0.18616
+			CODcp = 0.99144, PEEP = 2.3398 cmH2O, Ptr,mean = 3.109 cmH2O, Ptr,max = 4.2315 cmH2O, Ptr,min = 2.1281 cmH2O
+			Ptr,p-p = 2.1034 cmH2O, Vtr,p-p = 0.083646 mL, Pcyl,p-p = 2.7836 cmH2O, Vol,p-p = 0.095329 mL
+ 
+12/11/2015 11:23:23 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 22
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24492 cmH2O.s/mL, I = 0.00011041 cmH2O.s.s/mL, G = 3.5854 cmH2O/mL, H = 19.377 cmH2O/mL, eta = 0.18504
+			CODcp = 0.99058, PEEP = 2.5335 cmH2O, Ptr,mean = 3.1419 cmH2O, Ptr,max = 4.294 cmH2O, Ptr,min = 2.1124 cmH2O
+			Ptr,p-p = 2.1817 cmH2O, Vtr,p-p = 0.083259 mL, Pcyl,p-p = 2.7698 cmH2O, Vol,p-p = 0.094642 mL
+ 
+12/11/2015 11:23:34 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 23
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.23434 cmH2O.s/mL, I = 7.7854E-5 cmH2O.s.s/mL, G = 3.7213 cmH2O/mL, H = 19.205 cmH2O/mL, eta = 0.19377
+			CODcp = 0.98267, PEEP = 2.4312 cmH2O, Ptr,mean = 3.1051 cmH2O, Ptr,max = 4.2852 cmH2O, Ptr,min = 2.0946 cmH2O
+			Ptr,p-p = 2.1906 cmH2O, Vtr,p-p = 0.084555 mL, Pcyl,p-p = 2.9135 cmH2O, Vol,p-p = 0.09574 mL
+ 
+12/11/2015 11:23:45 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 24
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24155 cmH2O.s/mL, I = 0.00010499 cmH2O.s.s/mL, G = 3.5653 cmH2O/mL, H = 19.517 cmH2O/mL, eta = 0.18268
+			CODcp = 0.98342, PEEP = 2.4857 cmH2O, Ptr,mean = 3.1294 cmH2O, Ptr,max = 4.3149 cmH2O, Ptr,min = 2.1353 cmH2O
+			Ptr,p-p = 2.1796 cmH2O, Vtr,p-p = 0.084358 mL, Pcyl,p-p = 2.8778 cmH2O, Vol,p-p = 0.095747 mL
+ 
+12/11/2015 11:23:56 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 25
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.23749 cmH2O.s/mL, I = -4.8017E-5 cmH2O.s.s/mL, G = 3.5106 cmH2O/mL, H = 19.704 cmH2O/mL, eta = 0.17817
+			CODcp = 0.99261, PEEP = 2.5085 cmH2O, Ptr,mean = 3.1372 cmH2O, Ptr,max = 4.285 cmH2O, Ptr,min = 2.1704 cmH2O
+			Ptr,p-p = 2.1146 cmH2O, Vtr,p-p = 0.082856 mL, Pcyl,p-p = 2.783 cmH2O, Vol,p-p = 0.094813 mL
+ 
+12/11/2015 11:24:07 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 26
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24646 cmH2O.s/mL, I = -8.5693E-6 cmH2O.s.s/mL, G = 3.5717 cmH2O/mL, H = 19.5 cmH2O/mL, eta = 0.18316
+			CODcp = 0.98652, PEEP = 2.3295 cmH2O, Ptr,mean = 3.0966 cmH2O, Ptr,max = 4.3047 cmH2O, Ptr,min = 2.0703 cmH2O
+			Ptr,p-p = 2.2343 cmH2O, Vtr,p-p = 0.08367 mL, Pcyl,p-p = 2.9177 cmH2O, Vol,p-p = 0.09572 mL
+ 
+12/11/2015 11:24:18 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 27
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24546 cmH2O.s/mL, I = 7.2791E-5 cmH2O.s.s/mL, G = 3.4825 cmH2O/mL, H = 19.666 cmH2O/mL, eta = 0.17708
+			CODcp = 0.99459, PEEP = 2.4082 cmH2O, Ptr,mean = 3.14 cmH2O, Ptr,max = 4.283 cmH2O, Ptr,min = 2.1218 cmH2O
+			Ptr,p-p = 2.1612 cmH2O, Vtr,p-p = 0.082163 mL, Pcyl,p-p = 2.7769 cmH2O, Vol,p-p = 0.09447 mL
+ 
+12/11/2015 11:24:29 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 28
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.2443 cmH2O.s/mL, I = 6.5732E-5 cmH2O.s.s/mL, G = 3.5346 cmH2O/mL, H = 19.523 cmH2O/mL, eta = 0.18105
+			CODcp = 0.99499, PEEP = 2.3961 cmH2O, Ptr,mean = 3.153 cmH2O, Ptr,max = 4.2885 cmH2O, Ptr,min = 2.1505 cmH2O
+			Ptr,p-p = 2.138 cmH2O, Vtr,p-p = 0.08431 mL, Pcyl,p-p = 2.761 cmH2O, Vol,p-p = 0.095906 mL
+ 
+12/11/2015 11:24:40 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 29
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24455 cmH2O.s/mL, I = 2.686E-5 cmH2O.s.s/mL, G = 3.6174 cmH2O/mL, H = 19.364 cmH2O/mL, eta = 0.18681
+			CODcp = 0.99097, PEEP = 2.3417 cmH2O, Ptr,mean = 3.1229 cmH2O, Ptr,max = 4.3139 cmH2O, Ptr,min = 2.1154 cmH2O
+			Ptr,p-p = 2.1985 cmH2O, Vtr,p-p = 0.083416 mL, Pcyl,p-p = 2.8079 cmH2O, Vol,p-p = 0.095481 mL
+ 
+12/11/2015 11:24:50 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 30
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.23975 cmH2O.s/mL, I = 7.9613E-5 cmH2O.s.s/mL, G = 3.609 cmH2O/mL, H = 19.75 cmH2O/mL, eta = 0.18274
+			CODcp = 0.99528, PEEP = 2.4998 cmH2O, Ptr,mean = 3.1231 cmH2O, Ptr,max = 4.327 cmH2O, Ptr,min = 2.116 cmH2O
+			Ptr,p-p = 2.2109 cmH2O, Vtr,p-p = 0.083266 mL, Pcyl,p-p = 2.9056 cmH2O, Vol,p-p = 0.095115 mL
+ 
+12/11/2015 11:25:01 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 31
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24548 cmH2O.s/mL, I = 0.00011287 cmH2O.s.s/mL, G = 3.6283 cmH2O/mL, H = 19.638 cmH2O/mL, eta = 0.18476
+			CODcp = 0.99043, PEEP = 2.3755 cmH2O, Ptr,mean = 3.1295 cmH2O, Ptr,max = 4.3159 cmH2O, Ptr,min = 2.0945 cmH2O
+			Ptr,p-p = 2.2214 cmH2O, Vtr,p-p = 0.083269 mL, Pcyl,p-p = 2.8171 cmH2O, Vol,p-p = 0.095144 mL
+ 
+12/11/2015 11:25:12 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 32
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24504 cmH2O.s/mL, I = 4.1468E-6 cmH2O.s.s/mL, G = 3.5706 cmH2O/mL, H = 19.652 cmH2O/mL, eta = 0.18169
+			CODcp = 0.99201, PEEP = 2.4566 cmH2O, Ptr,mean = 3.1266 cmH2O, Ptr,max = 4.272 cmH2O, Ptr,min = 2.1049 cmH2O
+			Ptr,p-p = 2.1671 cmH2O, Vtr,p-p = 0.083879 mL, Pcyl,p-p = 2.8547 cmH2O, Vol,p-p = 0.095073 mL
+ 
+12/11/2015 11:25:23 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 33
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24505 cmH2O.s/mL, I = 3.4323E-5 cmH2O.s.s/mL, G = 3.6406 cmH2O/mL, H = 19.605 cmH2O/mL, eta = 0.1857
+			CODcp = 0.99062, PEEP = 2.3963 cmH2O, Ptr,mean = 3.1462 cmH2O, Ptr,max = 4.2796 cmH2O, Ptr,min = 2.1108 cmH2O
+			Ptr,p-p = 2.1687 cmH2O, Vtr,p-p = 0.082459 mL, Pcyl,p-p = 2.7787 cmH2O, Vol,p-p = 0.094754 mL
+ 
+12/11/2015 11:27:42 AM	Ventilation: Quasi-sinusoidal, Vt = 10 mL/kg, RR = 150 br/min
+			Event ID: 34
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, Vt/weight = 10 mL/kg, RR = 150 br/min
+ 
+12/11/2015 11:27:45 AM	Script complete: 15_09_15_PBS_Cida_Z
+			Event ID: 35
+			Comments: ( None )
+ 
+12/11/2015 11:27:46 AM	Script start: 15_09_15_Mch_30ug-kg_Cida_Z, Title: Dose Resposta - IV Mouse
+			Event ID: 36
+			Comments: ( None )
+ 
+12/11/2015 11:27:47 AM	Ventilation: Quasi-sinusoidal, Vt = 10 mL/kg, RR = 150 br/min
+			Event ID: 37
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, Vt/weight = 10 mL/kg, RR = 150 br/min
+ 
+12/11/2015 11:27:47 AM	User marker: MCh 30 ug/kg
+			Event ID: 38
+			Details: From script '15_09_15_Mch_30ug-kg_Cida_Z'
+			Comments: MCh 30 ug/kg
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 11:28:58 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2  ( Excluded ) 
+			Event ID: 39
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.33375 cmH2O.s/mL, I = -0.00032797 cmH2O.s.s/mL, G = 3.5307 cmH2O/mL, H = 20.269 cmH2O/mL, eta = 0.17419
+			CODcp = 0.84925, PEEP = 2.5293 cmH2O, Ptr,mean = 3.1391 cmH2O, Ptr,max = 4.3501 cmH2O, Ptr,min = 2.0636 cmH2O
+			Ptr,p-p = 2.2865 cmH2O, Vtr,p-p = 0.084578 mL, Pcyl,p-p = 2.9468 cmH2O, Vol,p-p = 0.095527 mL
+ 
+12/11/2015 11:29:09 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 40
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.25177 cmH2O.s/mL, I = -0.00018981 cmH2O.s.s/mL, G = 4.0713 cmH2O/mL, H = 19.178 cmH2O/mL, eta = 0.21229
+			CODcp = 0.95206, PEEP = 2.4209 cmH2O, Ptr,mean = 3.1512 cmH2O, Ptr,max = 4.3644 cmH2O, Ptr,min = 2.0953 cmH2O
+			Ptr,p-p = 2.2691 cmH2O, Vtr,p-p = 0.083357 mL, Pcyl,p-p = 2.9959 cmH2O, Vol,p-p = 0.096057 mL
+ 
+12/11/2015 11:29:20 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 41
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.28419 cmH2O.s/mL, I = 0.00015687 cmH2O.s.s/mL, G = 3.8267 cmH2O/mL, H = 19.728 cmH2O/mL, eta = 0.19397
+			CODcp = 0.98929, PEEP = 2.4712 cmH2O, Ptr,mean = 3.0713 cmH2O, Ptr,max = 4.3411 cmH2O, Ptr,min = 2.051 cmH2O
+			Ptr,p-p = 2.2902 cmH2O, Vtr,p-p = 0.085221 mL, Pcyl,p-p = 3.037 cmH2O, Vol,p-p = 0.09652 mL
+ 
+12/11/2015 11:29:31 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 42
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24048 cmH2O.s/mL, I = -0.00011468 cmH2O.s.s/mL, G = 4.1115 cmH2O/mL, H = 19.061 cmH2O/mL, eta = 0.2157
+			CODcp = 0.94115, PEEP = 2.3543 cmH2O, Ptr,mean = 3.0711 cmH2O, Ptr,max = 4.3405 cmH2O, Ptr,min = 2.0187 cmH2O
+			Ptr,p-p = 2.3218 cmH2O, Vtr,p-p = 0.083513 mL, Pcyl,p-p = 3.0299 cmH2O, Vol,p-p = 0.096042 mL
+ 
+12/11/2015 11:29:42 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 43
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.29213 cmH2O.s/mL, I = 0.00018549 cmH2O.s.s/mL, G = 4.2421 cmH2O/mL, H = 24.602 cmH2O/mL, eta = 0.17243
+			CODcp = 0.98753, PEEP = 2.5194 cmH2O, Ptr,mean = 3.2434 cmH2O, Ptr,max = 4.6324 cmH2O, Ptr,min = 2.0813 cmH2O
+			Ptr,p-p = 2.5511 cmH2O, Vtr,p-p = 0.080992 mL, Pcyl,p-p = 3.2543 cmH2O, Vol,p-p = 0.094427 mL
+ 
+12/11/2015 11:29:53 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 44
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.28057 cmH2O.s/mL, I = 0.00028205 cmH2O.s.s/mL, G = 4.3954 cmH2O/mL, H = 24.351 cmH2O/mL, eta = 0.1805
+			CODcp = 0.98906, PEEP = 2.4972 cmH2O, Ptr,mean = 3.2212 cmH2O, Ptr,max = 4.6225 cmH2O, Ptr,min = 2.0838 cmH2O
+			Ptr,p-p = 2.5386 cmH2O, Vtr,p-p = 0.082288 mL, Pcyl,p-p = 3.2048 cmH2O, Vol,p-p = 0.09517 mL
+ 
+12/11/2015 11:30:04 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 45
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24184 cmH2O.s/mL, I = -1.6659E-5 cmH2O.s.s/mL, G = 4.5827 cmH2O/mL, H = 24.464 cmH2O/mL, eta = 0.18733
+			CODcp = 0.95969, PEEP = 2.3749 cmH2O, Ptr,mean = 3.2058 cmH2O, Ptr,max = 4.6216 cmH2O, Ptr,min = 1.9568 cmH2O
+			Ptr,p-p = 2.6648 cmH2O, Vtr,p-p = 0.081396 mL, Pcyl,p-p = 3.3245 cmH2O, Vol,p-p = 0.095611 mL
+ 
+12/11/2015 11:30:15 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 46
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.23692 cmH2O.s/mL, I = 0.00015971 cmH2O.s.s/mL, G = 4.5077 cmH2O/mL, H = 24.328 cmH2O/mL, eta = 0.18529
+			CODcp = 0.93856, PEEP = 2.5237 cmH2O, Ptr,mean = 3.2376 cmH2O, Ptr,max = 4.6286 cmH2O, Ptr,min = 2.0368 cmH2O
+			Ptr,p-p = 2.5918 cmH2O, Vtr,p-p = 0.081152 mL, Pcyl,p-p = 3.2211 cmH2O, Vol,p-p = 0.094539 mL
+ 
+12/11/2015 11:30:25 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 47
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.24069 cmH2O.s/mL, I = -4.5137E-6 cmH2O.s.s/mL, G = 4.6093 cmH2O/mL, H = 24.485 cmH2O/mL, eta = 0.18825
+			CODcp = 0.95936, PEEP = 2.458 cmH2O, Ptr,mean = 3.2265 cmH2O, Ptr,max = 4.6089 cmH2O, Ptr,min = 2.0066 cmH2O
+			Ptr,p-p = 2.6023 cmH2O, Vtr,p-p = 0.080666 mL, Pcyl,p-p = 3.2779 cmH2O, Vol,p-p = 0.094498 mL
+ 
+12/11/2015 11:30:36 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 48
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.31223 cmH2O.s/mL, I = -0.00012597 cmH2O.s.s/mL, G = 4.2823 cmH2O/mL, H = 24.973 cmH2O/mL, eta = 0.17148
+			CODcp = 0.93204, PEEP = 2.4292 cmH2O, Ptr,mean = 3.2672 cmH2O, Ptr,max = 4.6662 cmH2O, Ptr,min = 2.0738 cmH2O
+			Ptr,p-p = 2.5924 cmH2O, Vtr,p-p = 0.079851 mL, Pcyl,p-p = 3.2551 cmH2O, Vol,p-p = 0.094296 mL
+ 
+12/11/2015 11:30:47 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 49
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.30516 cmH2O.s/mL, I = 0.00016551 cmH2O.s.s/mL, G = 4.2765 cmH2O/mL, H = 24.891 cmH2O/mL, eta = 0.17181
+			CODcp = 0.9545, PEEP = 2.4845 cmH2O, Ptr,mean = 3.2749 cmH2O, Ptr,max = 4.5954 cmH2O, Ptr,min = 2.1528 cmH2O
+			Ptr,p-p = 2.4426 cmH2O, Vtr,p-p = 0.081074 mL, Pcyl,p-p = 3.0951 cmH2O, Vol,p-p = 0.0948 mL
+ 
+12/11/2015 11:30:58 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 50
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.28215 cmH2O.s/mL, I = 0.00028101 cmH2O.s.s/mL, G = 4.3796 cmH2O/mL, H = 24.842 cmH2O/mL, eta = 0.1763
+			CODcp = 0.9908, PEEP = 2.5216 cmH2O, Ptr,mean = 3.2549 cmH2O, Ptr,max = 4.6454 cmH2O, Ptr,min = 2.0621 cmH2O
+			Ptr,p-p = 2.5833 cmH2O, Vtr,p-p = 0.081038 mL, Pcyl,p-p = 3.2686 cmH2O, Vol,p-p = 0.094206 mL
+ 
+12/11/2015 11:31:09 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 51
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.27769 cmH2O.s/mL, I = 0.00025161 cmH2O.s.s/mL, G = 4.4002 cmH2O/mL, H = 24.84 cmH2O/mL, eta = 0.17714
+			CODcp = 0.99307, PEEP = 2.5367 cmH2O, Ptr,mean = 3.266 cmH2O, Ptr,max = 4.6455 cmH2O, Ptr,min = 2.1289 cmH2O
+			Ptr,p-p = 2.5166 cmH2O, Vtr,p-p = 0.08103 mL, Pcyl,p-p = 3.172 cmH2O, Vol,p-p = 0.094358 mL
+ 
+12/11/2015 11:31:20 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 52
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.3091 cmH2O.s/mL, I = 0.00012728 cmH2O.s.s/mL, G = 4.2866 cmH2O/mL, H = 25.027 cmH2O/mL, eta = 0.17128
+			CODcp = 0.93962, PEEP = 2.467 cmH2O, Ptr,mean = 3.2786 cmH2O, Ptr,max = 4.6812 cmH2O, Ptr,min = 2.1102 cmH2O
+			Ptr,p-p = 2.571 cmH2O, Vtr,p-p = 0.081773 mL, Pcyl,p-p = 3.1337 cmH2O, Vol,p-p = 0.09548 mL
+ 
+12/11/2015 11:31:31 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 53
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.28983 cmH2O.s/mL, I = -0.00014991 cmH2O.s.s/mL, G = 4.447 cmH2O/mL, H = 25.15 cmH2O/mL, eta = 0.17682
+			CODcp = 0.97962, PEEP = 2.3823 cmH2O, Ptr,mean = 3.2255 cmH2O, Ptr,max = 4.66 cmH2O, Ptr,min = 1.992 cmH2O
+			Ptr,p-p = 2.6681 cmH2O, Vtr,p-p = 0.080249 mL, Pcyl,p-p = 3.3412 cmH2O, Vol,p-p = 0.094742 mL
+ 
+12/11/2015 11:33:46 AM	Ventilation: Quasi-sinusoidal, Vt = 10 mL/kg, RR = 150 br/min
+			Event ID: 54
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, Vt/weight = 10 mL/kg, RR = 150 br/min
+ 
+12/11/2015 11:33:49 AM	Script complete: 15_09_15_Mch_30ug-kg_Cida_Z
+			Event ID: 55
+			Comments: ( None )
+ 
+12/11/2015 11:33:52 AM	Script start: 15_09_15_Mch_100ug-kg_Cida_Z -, Title: Dose Resposta - IV Mouse
+			Event ID: 56
+			Comments: ( None )
+ 
+12/11/2015 11:33:52 AM	Ventilation: Quasi-sinusoidal, Vt = 10 mL/kg, RR = 150 br/min
+			Event ID: 57
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, Vt/weight = 10 mL/kg, RR = 150 br/min
+ 
+12/11/2015 11:33:52 AM	User marker: MCh 100 ug/kg
+			Event ID: 58
+			Details: From script '15_09_15_Mch_100ug-kg_Cida_Z -'
+			Comments: MCh 100 ug/kg
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 11:34:26 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 59
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.6152 cmH2O.s/mL, I = -3.0342E-5 cmH2O.s.s/mL, G = 5.4807 cmH2O/mL, H = 25.588 cmH2O/mL, eta = 0.21419
+			CODcp = 0.95126, PEEP = 2.5561 cmH2O, Ptr,mean = 3.3246 cmH2O, Ptr,max = 5.1172 cmH2O, Ptr,min = 1.9049 cmH2O
+			Ptr,p-p = 3.2123 cmH2O, Vtr,p-p = 0.080445 mL, Pcyl,p-p = 4.0847 cmH2O, Vol,p-p = 0.09472 mL
+ 
+12/11/2015 11:34:36 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 60
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.59018 cmH2O.s/mL, I = -0.00010208 cmH2O.s.s/mL, G = 5.6051 cmH2O/mL, H = 25.359 cmH2O/mL, eta = 0.22103
+			CODcp = 0.98659, PEEP = 2.4264 cmH2O, Ptr,mean = 3.2699 cmH2O, Ptr,max = 5.1411 cmH2O, Ptr,min = 1.8501 cmH2O
+			Ptr,p-p = 3.291 cmH2O, Vtr,p-p = 0.079841 mL, Pcyl,p-p = 4.1002 cmH2O, Vol,p-p = 0.094486 mL
+ 
+12/11/2015 11:34:47 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 61
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.43615 cmH2O.s/mL, I = -9.9713E-5 cmH2O.s.s/mL, G = 5.4112 cmH2O/mL, H = 25.272 cmH2O/mL, eta = 0.21412
+			CODcp = 0.94269, PEEP = 2.4888 cmH2O, Ptr,mean = 3.3291 cmH2O, Ptr,max = 5.0342 cmH2O, Ptr,min = 1.9669 cmH2O
+			Ptr,p-p = 3.0673 cmH2O, Vtr,p-p = 0.080125 mL, Pcyl,p-p = 3.7701 cmH2O, Vol,p-p = 0.094933 mL
+ 
+12/11/2015 11:34:58 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 62
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.38138 cmH2O.s/mL, I = -5.214E-5 cmH2O.s.s/mL, G = 4.9538 cmH2O/mL, H = 25.483 cmH2O/mL, eta = 0.1944
+			CODcp = 0.99075, PEEP = 2.4903 cmH2O, Ptr,mean = 3.3165 cmH2O, Ptr,max = 4.9113 cmH2O, Ptr,min = 1.9748 cmH2O
+			Ptr,p-p = 2.9366 cmH2O, Vtr,p-p = 0.07969 mL, Pcyl,p-p = 3.6556 cmH2O, Vol,p-p = 0.094358 mL
+ 
+12/11/2015 11:35:09 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 63
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.3489 cmH2O.s/mL, I = -0.00011358 cmH2O.s.s/mL, G = 4.5725 cmH2O/mL, H = 25.54 cmH2O/mL, eta = 0.17904
+			CODcp = 0.99401, PEEP = 2.5182 cmH2O, Ptr,mean = 3.2535 cmH2O, Ptr,max = 4.7961 cmH2O, Ptr,min = 1.9932 cmH2O
+			Ptr,p-p = 2.8029 cmH2O, Vtr,p-p = 0.081142 mL, Pcyl,p-p = 3.4733 cmH2O, Vol,p-p = 0.094642 mL
+ 
+12/11/2015 11:35:20 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 64
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.28159 cmH2O.s/mL, I = 6.3408E-5 cmH2O.s.s/mL, G = 4.8021 cmH2O/mL, H = 24.822 cmH2O/mL, eta = 0.19346
+			CODcp = 0.98309, PEEP = 2.5153 cmH2O, Ptr,mean = 3.2736 cmH2O, Ptr,max = 4.7134 cmH2O, Ptr,min = 2.0399 cmH2O
+			Ptr,p-p = 2.6736 cmH2O, Vtr,p-p = 0.081164 mL, Pcyl,p-p = 3.3343 cmH2O, Vol,p-p = 0.094874 mL
+ 
+12/11/2015 11:35:31 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 65
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.30094 cmH2O.s/mL, I = 0.00011789 cmH2O.s.s/mL, G = 4.6166 cmH2O/mL, H = 24.992 cmH2O/mL, eta = 0.18473
+			CODcp = 0.98202, PEEP = 2.5076 cmH2O, Ptr,mean = 3.2575 cmH2O, Ptr,max = 4.6869 cmH2O, Ptr,min = 2.0256 cmH2O
+			Ptr,p-p = 2.6612 cmH2O, Vtr,p-p = 0.081481 mL, Pcyl,p-p = 3.2946 cmH2O, Vol,p-p = 0.094502 mL
+ 
+12/11/2015 11:35:42 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 66
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.26842 cmH2O.s/mL, I = 0.000163 cmH2O.s.s/mL, G = 4.6937 cmH2O/mL, H = 24.775 cmH2O/mL, eta = 0.18946
+			CODcp = 0.98439, PEEP = 2.4448 cmH2O, Ptr,mean = 3.2556 cmH2O, Ptr,max = 4.6974 cmH2O, Ptr,min = 2.058 cmH2O
+			Ptr,p-p = 2.6395 cmH2O, Vtr,p-p = 0.080626 mL, Pcyl,p-p = 3.35 cmH2O, Vol,p-p = 0.094338 mL
+ 
+12/11/2015 11:35:53 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 67
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.3014 cmH2O.s/mL, I = 1.9895E-6 cmH2O.s.s/mL, G = 4.4039 cmH2O/mL, H = 24.888 cmH2O/mL, eta = 0.17695
+			CODcp = 0.97953, PEEP = 2.494 cmH2O, Ptr,mean = 3.2851 cmH2O, Ptr,max = 4.7107 cmH2O, Ptr,min = 1.9935 cmH2O
+			Ptr,p-p = 2.7172 cmH2O, Vtr,p-p = 0.080494 mL, Pcyl,p-p = 3.4063 cmH2O, Vol,p-p = 0.094662 mL
+ 
+12/11/2015 11:36:04 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 68
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.26234 cmH2O.s/mL, I = -7.6266E-5 cmH2O.s.s/mL, G = 4.6377 cmH2O/mL, H = 24.622 cmH2O/mL, eta = 0.18836
+			CODcp = 0.98694, PEEP = 2.5077 cmH2O, Ptr,mean = 3.2751 cmH2O, Ptr,max = 4.7257 cmH2O, Ptr,min = 2.0717 cmH2O
+			Ptr,p-p = 2.6539 cmH2O, Vtr,p-p = 0.081491 mL, Pcyl,p-p = 3.1318 cmH2O, Vol,p-p = 0.095491 mL
+ 
+12/11/2015 11:36:14 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 69
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.29135 cmH2O.s/mL, I = -0.00011649 cmH2O.s.s/mL, G = 4.3946 cmH2O/mL, H = 25.106 cmH2O/mL, eta = 0.17504
+			CODcp = 0.97616, PEEP = 2.5065 cmH2O, Ptr,mean = 3.2693 cmH2O, Ptr,max = 4.6953 cmH2O, Ptr,min = 2.0318 cmH2O
+			Ptr,p-p = 2.6635 cmH2O, Vtr,p-p = 0.08077 mL, Pcyl,p-p = 3.3373 cmH2O, Vol,p-p = 0.094564 mL
+ 
+12/11/2015 11:36:25 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 70
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.29522 cmH2O.s/mL, I = 0.00014011 cmH2O.s.s/mL, G = 4.4817 cmH2O/mL, H = 25.003 cmH2O/mL, eta = 0.17924
+			CODcp = 0.98967, PEEP = 2.4083 cmH2O, Ptr,mean = 3.2697 cmH2O, Ptr,max = 4.7013 cmH2O, Ptr,min = 1.9775 cmH2O
+			Ptr,p-p = 2.7238 cmH2O, Vtr,p-p = 0.080183 mL, Pcyl,p-p = 3.4169 cmH2O, Vol,p-p = 0.094488 mL
+ 
+12/11/2015 11:36:36 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 71
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.28951 cmH2O.s/mL, I = 0.00016103 cmH2O.s.s/mL, G = 4.5888 cmH2O/mL, H = 25.268 cmH2O/mL, eta = 0.1816
+			CODcp = 0.98892, PEEP = 2.4829 cmH2O, Ptr,mean = 3.2552 cmH2O, Ptr,max = 4.6742 cmH2O, Ptr,min = 1.9946 cmH2O
+			Ptr,p-p = 2.6796 cmH2O, Vtr,p-p = 0.08056 mL, Pcyl,p-p = 3.2739 cmH2O, Vol,p-p = 0.094305 mL
+ 
+12/11/2015 11:36:47 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 72
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.28056 cmH2O.s/mL, I = 7.2428E-5 cmH2O.s.s/mL, G = 4.6365 cmH2O/mL, H = 25.047 cmH2O/mL, eta = 0.18511
+			CODcp = 0.99219, PEEP = 2.4923 cmH2O, Ptr,mean = 3.2868 cmH2O, Ptr,max = 4.742 cmH2O, Ptr,min = 2.0511 cmH2O
+			Ptr,p-p = 2.6909 cmH2O, Vtr,p-p = 0.081295 mL, Pcyl,p-p = 3.3223 cmH2O, Vol,p-p = 0.095177 mL
+ 
+12/11/2015 11:36:58 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 73
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.27633 cmH2O.s/mL, I = -2.0015E-5 cmH2O.s.s/mL, G = 4.6446 cmH2O/mL, H = 24.931 cmH2O/mL, eta = 0.1863
+			CODcp = 0.995, PEEP = 2.5042 cmH2O, Ptr,mean = 3.261 cmH2O, Ptr,max = 4.6749 cmH2O, Ptr,min = 2.0444 cmH2O
+			Ptr,p-p = 2.6305 cmH2O, Vtr,p-p = 0.080411 mL, Pcyl,p-p = 3.307 cmH2O, Vol,p-p = 0.093996 mL
+ 
+12/11/2015 11:39:13 AM	Ventilation: Quasi-sinusoidal, Vt = 10 mL/kg, RR = 150 br/min
+			Event ID: 74
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, Vt/weight = 10 mL/kg, RR = 150 br/min
+ 
+12/11/2015 11:39:15 AM	Script complete: 15_09_15_Mch_100ug-kg_Cida_Z -
+			Event ID: 75
+			Comments: ( None )
+ 
+12/11/2015 11:39:18 AM	Script start: 15_09_15_Mch_300 ug-kg_Cida_Z, Title: Dose Resposta - IV Mouse
+			Event ID: 76
+			Comments: ( None )
+ 
+12/11/2015 11:39:18 AM	Ventilation: Quasi-sinusoidal, Vt = 10 mL/kg, RR = 150 br/min
+			Event ID: 77
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, Vt/weight = 10 mL/kg, RR = 150 br/min
+ 
+12/11/2015 11:39:18 AM	User marker: MCh 300 ug/kg
+			Event ID: 78
+			Details: From script '15_09_15_Mch_300 ug-kg_Cida_Z'
+			Comments: MCh 300 ug/kg
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 11:39:46 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 79
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 3.2585 cmH2O.s/mL, I = -0.0039265 cmH2O.s.s/mL, G = 10.562 cmH2O/mL, H = 23.209 cmH2O/mL, eta = 0.45508
+			CODcp = 0.96683, PEEP = 2.4973 cmH2O, Ptr,mean = 3.4155 cmH2O, Ptr,max = 7.5689 cmH2O, Ptr,min = 0.29598 cmH2O
+			Ptr,p-p = 7.2729 cmH2O, Vtr,p-p = 0.076082 mL, Pcyl,p-p = 7.8567 cmH2O, Vol,p-p = 0.094378 mL
+ 
+12/11/2015 11:39:57 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 80
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 3.6902 cmH2O.s/mL, I = -0.0053044 cmH2O.s.s/mL, G = 10.765 cmH2O/mL, H = 24.021 cmH2O/mL, eta = 0.44812
+			CODcp = 0.95224, PEEP = 2.5731 cmH2O, Ptr,mean = 3.5636 cmH2O, Ptr,max = 8.1177 cmH2O, Ptr,min = 0.50765 cmH2O
+			Ptr,p-p = 7.61 cmH2O, Vtr,p-p = 0.075417 mL, Pcyl,p-p = 8.2475 cmH2O, Vol,p-p = 0.094405 mL
+ 
+12/11/2015 11:40:08 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 81
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 2.4696 cmH2O.s/mL, I = -0.0025522 cmH2O.s.s/mL, G = 8.6995 cmH2O/mL, H = 26.483 cmH2O/mL, eta = 0.32849
+			CODcp = 0.96385, PEEP = 2.5373 cmH2O, Ptr,mean = 3.546 cmH2O, Ptr,max = 7.3343 cmH2O, Ptr,min = 0.87313 cmH2O
+			Ptr,p-p = 6.4612 cmH2O, Vtr,p-p = 0.076417 mL, Pcyl,p-p = 7.1825 cmH2O, Vol,p-p = 0.094971 mL
+ 
+12/11/2015 11:40:19 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 82
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 1.343 cmH2O.s/mL, I = -0.001083 cmH2O.s.s/mL, G = 6.9554 cmH2O/mL, H = 27.053 cmH2O/mL, eta = 0.2571
+			CODcp = 0.9842, PEEP = 2.5306 cmH2O, Ptr,mean = 3.4903 cmH2O, Ptr,max = 6.3227 cmH2O, Ptr,min = 1.5077 cmH2O
+			Ptr,p-p = 4.8149 cmH2O, Vtr,p-p = 0.078443 mL, Pcyl,p-p = 5.5973 cmH2O, Vol,p-p = 0.095165 mL
+ 
+12/11/2015 11:40:30 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 83
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.77886 cmH2O.s/mL, I = -0.00024266 cmH2O.s.s/mL, G = 5.9942 cmH2O/mL, H = 27.519 cmH2O/mL, eta = 0.21782
+			CODcp = 0.98514, PEEP = 2.5154 cmH2O, Ptr,mean = 3.3539 cmH2O, Ptr,max = 5.4772 cmH2O, Ptr,min = 1.7744 cmH2O
+			Ptr,p-p = 3.7028 cmH2O, Vtr,p-p = 0.07906 mL, Pcyl,p-p = 4.5658 cmH2O, Vol,p-p = 0.094575 mL
+ 
+12/11/2015 11:40:41 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 84
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.52723 cmH2O.s/mL, I = -4.1807E-5 cmH2O.s.s/mL, G = 5.4505 cmH2O/mL, H = 27.812 cmH2O/mL, eta = 0.19598
+			CODcp = 0.99395, PEEP = 2.4057 cmH2O, Ptr,mean = 3.3687 cmH2O, Ptr,max = 5.2217 cmH2O, Ptr,min = 1.8243 cmH2O
+			Ptr,p-p = 3.3974 cmH2O, Vtr,p-p = 0.079048 mL, Pcyl,p-p = 4.0926 cmH2O, Vol,p-p = 0.095133 mL
+ 
+12/11/2015 11:40:51 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 85
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.38771 cmH2O.s/mL, I = 5.3811E-5 cmH2O.s.s/mL, G = 5.2196 cmH2O/mL, H = 26.271 cmH2O/mL, eta = 0.19868
+			CODcp = 0.97777, PEEP = 2.3878 cmH2O, Ptr,mean = 3.3398 cmH2O, Ptr,max = 5.0374 cmH2O, Ptr,min = 2.0037 cmH2O
+			Ptr,p-p = 3.0337 cmH2O, Vtr,p-p = 0.078875 mL, Pcyl,p-p = 3.7392 cmH2O, Vol,p-p = 0.094535 mL
+ 
+12/11/2015 11:41:02 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 86
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.35603 cmH2O.s/mL, I = -4.487E-5 cmH2O.s.s/mL, G = 5.0608 cmH2O/mL, H = 26.457 cmH2O/mL, eta = 0.19128
+			CODcp = 0.97785, PEEP = 2.3846 cmH2O, Ptr,mean = 3.2953 cmH2O, Ptr,max = 4.9191 cmH2O, Ptr,min = 1.9274 cmH2O
+			Ptr,p-p = 2.9917 cmH2O, Vtr,p-p = 0.079693 mL, Pcyl,p-p = 3.7042 cmH2O, Vol,p-p = 0.094586 mL
+ 
+12/11/2015 11:41:13 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 87
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.32642 cmH2O.s/mL, I = 0.00023417 cmH2O.s.s/mL, G = 5.2192 cmH2O/mL, H = 25.752 cmH2O/mL, eta = 0.20268
+			CODcp = 0.9924, PEEP = 2.5009 cmH2O, Ptr,mean = 3.3401 cmH2O, Ptr,max = 4.852 cmH2O, Ptr,min = 1.9548 cmH2O
+			Ptr,p-p = 2.8973 cmH2O, Vtr,p-p = 0.080232 mL, Pcyl,p-p = 3.559 cmH2O, Vol,p-p = 0.095329 mL
+ 
+12/11/2015 11:41:24 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 88
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.36267 cmH2O.s/mL, I = 5.0322E-5 cmH2O.s.s/mL, G = 5.1946 cmH2O/mL, H = 27.767 cmH2O/mL, eta = 0.18708
+			CODcp = 0.99399, PEEP = 2.3982 cmH2O, Ptr,mean = 3.3398 cmH2O, Ptr,max = 4.9602 cmH2O, Ptr,min = 1.9706 cmH2O
+			Ptr,p-p = 2.9897 cmH2O, Vtr,p-p = 0.079416 mL, Pcyl,p-p = 3.6801 cmH2O, Vol,p-p = 0.094658 mL
+ 
+12/11/2015 11:41:35 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 89
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.35398 cmH2O.s/mL, I = 7.8587E-5 cmH2O.s.s/mL, G = 5.1619 cmH2O/mL, H = 27.501 cmH2O/mL, eta = 0.1877
+			CODcp = 0.99053, PEEP = 2.4953 cmH2O, Ptr,mean = 3.3584 cmH2O, Ptr,max = 4.9218 cmH2O, Ptr,min = 2.0077 cmH2O
+			Ptr,p-p = 2.9141 cmH2O, Vtr,p-p = 0.079183 mL, Pcyl,p-p = 3.5864 cmH2O, Vol,p-p = 0.094769 mL
+ 
+12/11/2015 11:41:46 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 90
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.33466 cmH2O.s/mL, I = 0.00010563 cmH2O.s.s/mL, G = 5.228 cmH2O/mL, H = 27.292 cmH2O/mL, eta = 0.19156
+			CODcp = 0.99392, PEEP = 2.5037 cmH2O, Ptr,mean = 3.3422 cmH2O, Ptr,max = 4.9307 cmH2O, Ptr,min = 1.953 cmH2O
+			Ptr,p-p = 2.9777 cmH2O, Vtr,p-p = 0.080197 mL, Pcyl,p-p = 3.6492 cmH2O, Vol,p-p = 0.095043 mL
+ 
+12/11/2015 11:41:57 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 91
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.33415 cmH2O.s/mL, I = 9.4157E-6 cmH2O.s.s/mL, G = 4.9226 cmH2O/mL, H = 27.634 cmH2O/mL, eta = 0.17814
+			CODcp = 0.9959, PEEP = 2.4218 cmH2O, Ptr,mean = 3.3566 cmH2O, Ptr,max = 4.9485 cmH2O, Ptr,min = 2.0302 cmH2O
+			Ptr,p-p = 2.9184 cmH2O, Vtr,p-p = 0.079844 mL, Pcyl,p-p = 3.6099 cmH2O, Vol,p-p = 0.095381 mL
+ 
+12/11/2015 11:42:08 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 92
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.32607 cmH2O.s/mL, I = 3.2459E-5 cmH2O.s.s/mL, G = 5.018 cmH2O/mL, H = 27.541 cmH2O/mL, eta = 0.1822
+			CODcp = 0.9917, PEEP = 2.4725 cmH2O, Ptr,mean = 3.3472 cmH2O, Ptr,max = 4.929 cmH2O, Ptr,min = 2.0107 cmH2O
+			Ptr,p-p = 2.9183 cmH2O, Vtr,p-p = 0.079278 mL, Pcyl,p-p = 3.5611 cmH2O, Vol,p-p = 0.094763 mL
+ 
+12/11/2015 11:42:18 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 93
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.32525 cmH2O.s/mL, I = 0.00015266 cmH2O.s.s/mL, G = 4.9972 cmH2O/mL, H = 27.352 cmH2O/mL, eta = 0.1827
+			CODcp = 0.9905, PEEP = 2.5318 cmH2O, Ptr,mean = 3.3439 cmH2O, Ptr,max = 4.8982 cmH2O, Ptr,min = 2.0425 cmH2O
+			Ptr,p-p = 2.8557 cmH2O, Vtr,p-p = 0.080064 mL, Pcyl,p-p = 3.4543 cmH2O, Vol,p-p = 0.095186 mL
+ 
+12/11/2015 11:44:37 AM	Ventilation: Quasi-sinusoidal, Vt = 10 mL/kg, RR = 150 br/min
+			Event ID: 94
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, Vt/weight = 10 mL/kg, RR = 150 br/min
+ 
+12/11/2015 11:44:38 AM	Script complete: 15_09_15_Mch_300 ug-kg_Cida_Z
+			Event ID: 95
+			Comments: ( None )
+ 
+12/11/2015 11:44:40 AM	Script start: 15_09_15_Mch_1000 ug-kg_Cida_Z, Title: Dose Resposta - IV Mouse
+			Event ID: 96
+			Comments: ( None )
+ 
+12/11/2015 11:44:40 AM	Ventilation: Quasi-sinusoidal, Vt = 10 mL/kg, RR = 150 br/min
+			Event ID: 97
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Vt = 0.24 mL, Vt/weight = 10 mL/kg, RR = 150 br/min
+ 
+12/11/2015 11:44:41 AM	User marker: MCh 1000 ug/kg
+			Event ID: 98
+			Details: From script '15_09_15_Mch_1000 ug-kg_Cida_Z'
+			Comments: MCh 1000 ug/kg
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 11:45:03 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2  ( Excluded ) 
+			Event ID: 99
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 7.0952 cmH2O.s/mL, I = -0.011079 cmH2O.s.s/mL, G = 22.176 cmH2O/mL, H = 20.378 cmH2O/mL, eta = 1.0882
+			CODcp = 0.86752, PEEP = 2.7536 cmH2O, Ptr,mean = 4.435 cmH2O, Ptr,max = 10.689 cmH2O, Ptr,min = 0.081015 cmH2O
+			Ptr,p-p = 10.608 cmH2O, Vtr,p-p = 0.065568 mL, Pcyl,p-p = 10.986 cmH2O, Vol,p-p = 0.094359 mL
+ 
+12/11/2015 11:45:13 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2  ( Excluded ) 
+			Event ID: 100
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 7.7742 cmH2O.s/mL, I = -0.014222 cmH2O.s.s/mL, G = 32.254 cmH2O/mL, H = 24.723 cmH2O/mL, eta = 1.3046
+			CODcp = 0.77967, PEEP = 2.7049 cmH2O, Ptr,mean = 4.7062 cmH2O, Ptr,max = 11.618 cmH2O, Ptr,min = -0.11433 cmH2O
+			Ptr,p-p = 11.733 cmH2O, Vtr,p-p = 0.058136 mL, Pcyl,p-p = 12.053 cmH2O, Vol,p-p = 0.09407 mL
+ 
+12/11/2015 11:45:24 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2  ( Excluded ) 
+			Event ID: 101
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 7.4462 cmH2O.s/mL, I = -0.017128 cmH2O.s.s/mL, G = 28.474 cmH2O/mL, H = 27.457 cmH2O/mL, eta = 1.037
+			CODcp = 0.81883, PEEP = 2.7113 cmH2O, Ptr,mean = 4.5508 cmH2O, Ptr,max = 11.094 cmH2O, Ptr,min = 0.051089 cmH2O
+			Ptr,p-p = 11.043 cmH2O, Vtr,p-p = 0.060144 mL, Pcyl,p-p = 11.381 cmH2O, Vol,p-p = 0.094296 mL
+ 
+12/11/2015 11:45:35 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2  ( Excluded ) 
+			Event ID: 102
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 5.9212 cmH2O.s/mL, I = -0.01197 cmH2O.s.s/mL, G = 18.395 cmH2O/mL, H = 30.594 cmH2O/mL, eta = 0.60127
+			CODcp = 0.91986, PEEP = 2.6568 cmH2O, Ptr,mean = 4.0949 cmH2O, Ptr,max = 9.6924 cmH2O, Ptr,min = 0.25485 cmH2O
+			Ptr,p-p = 9.4376 cmH2O, Vtr,p-p = 0.067792 mL, Pcyl,p-p = 9.8678 cmH2O, Vol,p-p = 0.094428 mL
+ 
+12/11/2015 11:45:46 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 103
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 3.5648 cmH2O.s/mL, I = -0.0046639 cmH2O.s.s/mL, G = 15.305 cmH2O/mL, H = 44.087 cmH2O/mL, eta = 0.34715
+			CODcp = 0.9829, PEEP = 2.5312 cmH2O, Ptr,mean = 4.093 cmH2O, Ptr,max = 8.5587 cmH2O, Ptr,min = 0.78446 cmH2O
+			Ptr,p-p = 7.7743 cmH2O, Vtr,p-p = 0.067743 mL, Pcyl,p-p = 8.3013 cmH2O, Vol,p-p = 0.094098 mL
+ 
+12/11/2015 11:45:57 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 104
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 1.9501 cmH2O.s/mL, I = -0.0014674 cmH2O.s.s/mL, G = 10.638 cmH2O/mL, H = 41.121 cmH2O/mL, eta = 0.25871
+			CODcp = 0.98414, PEEP = 2.4965 cmH2O, Ptr,mean = 3.8449 cmH2O, Ptr,max = 7.3259 cmH2O, Ptr,min = 1.1869 cmH2O
+			Ptr,p-p = 6.139 cmH2O, Vtr,p-p = 0.071109 mL, Pcyl,p-p = 6.7358 cmH2O, Vol,p-p = 0.093992 mL
+ 
+12/11/2015 11:46:08 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 105
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 1.3109 cmH2O.s/mL, I = -0.00088619 cmH2O.s.s/mL, G = 8.5611 cmH2O/mL, H = 39.345 cmH2O/mL, eta = 0.21759
+			CODcp = 0.98633, PEEP = 2.5426 cmH2O, Ptr,mean = 3.7726 cmH2O, Ptr,max = 6.6257 cmH2O, Ptr,min = 1.5305 cmH2O
+			Ptr,p-p = 5.0952 cmH2O, Vtr,p-p = 0.073623 mL, Pcyl,p-p = 5.7127 cmH2O, Vol,p-p = 0.094084 mL
+ 
+12/11/2015 11:46:19 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 106
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.96577 cmH2O.s/mL, I = -0.00033467 cmH2O.s.s/mL, G = 7.1757 cmH2O/mL, H = 35.11 cmH2O/mL, eta = 0.20438
+			CODcp = 0.98483, PEEP = 2.4907 cmH2O, Ptr,mean = 3.6683 cmH2O, Ptr,max = 6.1292 cmH2O, Ptr,min = 1.7495 cmH2O
+			Ptr,p-p = 4.3797 cmH2O, Vtr,p-p = 0.075049 mL, Pcyl,p-p = 5.0699 cmH2O, Vol,p-p = 0.094459 mL
+ 
+12/11/2015 11:46:30 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 107
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.87265 cmH2O.s/mL, I = -0.00030115 cmH2O.s.s/mL, G = 7.815 cmH2O/mL, H = 39.957 cmH2O/mL, eta = 0.19559
+			CODcp = 0.99007, PEEP = 2.569 cmH2O, Ptr,mean = 3.7824 cmH2O, Ptr,max = 6.2162 cmH2O, Ptr,min = 1.8208 cmH2O
+			Ptr,p-p = 4.3954 cmH2O, Vtr,p-p = 0.074715 mL, Pcyl,p-p = 5.0082 cmH2O, Vol,p-p = 0.095306 mL
+ 
+12/11/2015 11:46:41 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 108
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.69776 cmH2O.s/mL, I = -9.1464E-5 cmH2O.s.s/mL, G = 6.4332 cmH2O/mL, H = 34.985 cmH2O/mL, eta = 0.18389
+			CODcp = 0.98403, PEEP = 2.5715 cmH2O, Ptr,mean = 3.6099 cmH2O, Ptr,max = 5.7796 cmH2O, Ptr,min = 1.8826 cmH2O
+			Ptr,p-p = 3.8971 cmH2O, Vtr,p-p = 0.077021 mL, Pcyl,p-p = 4.5406 cmH2O, Vol,p-p = 0.094784 mL
+ 
+12/11/2015 11:46:51 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 109
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.58547 cmH2O.s/mL, I = -5.8743E-5 cmH2O.s.s/mL, G = 6.667 cmH2O/mL, H = 36.663 cmH2O/mL, eta = 0.18185
+			CODcp = 0.99531, PEEP = 2.493 cmH2O, Ptr,mean = 3.665 cmH2O, Ptr,max = 5.7705 cmH2O, Ptr,min = 1.933 cmH2O
+			Ptr,p-p = 3.8374 cmH2O, Vtr,p-p = 0.075426 mL, Pcyl,p-p = 4.4433 cmH2O, Vol,p-p = 0.095072 mL
+ 
+12/11/2015 11:47:02 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 110
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.54368 cmH2O.s/mL, I = 6.5384E-6 cmH2O.s.s/mL, G = 6.3815 cmH2O/mL, H = 37.096 cmH2O/mL, eta = 0.17203
+			CODcp = 0.99054, PEEP = 2.5077 cmH2O, Ptr,mean = 3.7161 cmH2O, Ptr,max = 5.7314 cmH2O, Ptr,min = 1.9842 cmH2O
+			Ptr,p-p = 3.7472 cmH2O, Vtr,p-p = 0.074972 mL, Pcyl,p-p = 4.3863 cmH2O, Vol,p-p = 0.094399 mL
+ 
+12/11/2015 11:47:13 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 111
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.50223 cmH2O.s/mL, I = -5.1707E-5 cmH2O.s.s/mL, G = 6.5907 cmH2O/mL, H = 36.505 cmH2O/mL, eta = 0.18054
+			CODcp = 0.99624, PEEP = 2.5501 cmH2O, Ptr,mean = 3.6431 cmH2O, Ptr,max = 5.6207 cmH2O, Ptr,min = 1.9471 cmH2O
+			Ptr,p-p = 3.6735 cmH2O, Vtr,p-p = 0.076699 mL, Pcyl,p-p = 4.2835 cmH2O, Vol,p-p = 0.094982 mL
+ 
+12/11/2015 11:47:24 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 112
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.46829 cmH2O.s/mL, I = 3.4111E-5 cmH2O.s.s/mL, G = 6.6304 cmH2O/mL, H = 36.32 cmH2O/mL, eta = 0.18255
+			CODcp = 0.99338, PEEP = 2.5121 cmH2O, Ptr,mean = 3.6459 cmH2O, Ptr,max = 5.6151 cmH2O, Ptr,min = 1.9618 cmH2O
+			Ptr,p-p = 3.6532 cmH2O, Vtr,p-p = 0.076476 mL, Pcyl,p-p = 4.17 cmH2O, Vol,p-p = 0.095192 mL
+ 
+12/11/2015 11:47:35 AM	Data set: Magra OVA eosinofilica Bude 3, Quick Prime-3 v5.2
+			Event ID: 113
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+			Rn = 0.45307 cmH2O.s/mL, I = -0.00011795 cmH2O.s.s/mL, G = 6.4234 cmH2O/mL, H = 36.137 cmH2O/mL, eta = 0.17775
+			CODcp = 0.99687, PEEP = 2.5645 cmH2O, Ptr,mean = 3.6373 cmH2O, Ptr,max = 5.552 cmH2O, Ptr,min = 1.995 cmH2O
+			Ptr,p-p = 3.557 cmH2O, Vtr,p-p = 0.076261 mL, Pcyl,p-p = 4.0612 cmH2O, Vol,p-p = 0.094755 mL
+ 
+12/11/2015 11:47:51 AM	Script stopped: 15_09_15_Mch_1000 ug-kg_Cida_Z
+			Event ID: 114
+			Comments: ( None )
+ 
+12/11/2015 11:48:38 AM	Ventilation: Stop
+			Event ID: 115
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+ 
+12/11/2015 11:49:37 AM	Application marker: Experiment closed.
+			Event ID: 116
+			Details: Experiment closed.
+			Comments: ( None )
+			Subject: Magra OVA eosinofilica Bude 3
+ 

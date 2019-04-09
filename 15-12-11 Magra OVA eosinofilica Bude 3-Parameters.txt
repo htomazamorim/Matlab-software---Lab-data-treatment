@@ -1,0 +1,124 @@
+Experiment
+----------
+Name:	15-12-11 Magra OVA eosinofilica Bude 3
+File name:	C:\Users\Wothan\Documents\My flexiVent data\15-12-11 Magra OVA eosinofilica Bude 3.exp
+Operator:	Cida
+Comment:	Default template provided for mouse experiments.
+ 
+Subjects
+--------
+ Subject  Name 	Weight	Gender	Strain	Group	Comment
+ Magra  OVA  eosinofilica  Bude  3 	 24  g 	female	Balbi		
+ 
+Perturbation:	TLC
+Perturbation:	SnapShot-150 v5.2
+Perturbation:	Quick Prime-3 v5.2
+Perturbation:	Prime-8 v5.2
+Perturbation:	PVs-V v5.2
+Perturbation:	PVr-V v5.2
+Perturbation:	PVr-P v5.2
+Perturbation:	PVs-P v5.2
+ 
+ 
+Data
+----
+ 
+ Event  ID 	Timestamp	 Event  Type 	Comments	Vt	RR	I:E	 End  inspiratory  pause 	Pmax	Vt/weight	PEEP	Ptr,mean	Ptr,max	Ptr,min	Ptr,p-p	Vtr,p-p	Pcyl,p-p	Vol,p-p	Vend	Vend/wt	Vtr,end	Ptr,end	Rn	I	G	H	eta	CODcp
+				mL	br/min	%	s	cmH2O	mL/kg	cmH2O	cmH2O	cmH2O	cmH2O	cmH2O	mL	cmH2O	mL	mL	mL/kg	mL	cmH2O	cmH2O.s/mL	cmH2O.s.s/mL	cmH2O/mL	cmH2O/mL		
+																											
+11	 12/11/2015  11:03:26  AM 	 Ventilation  (Pressure  limited) 	 Default  settings  restored 	0.24	150	66.667	0	30	10																		
+12	 12/11/2015  11:07:34  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  TLC) 								1.4845	22.894	30.623	1.4529	29.17	1.2938	29.195	1.5187	1.5113	62.972	1.2888	30.26						
+14	 12/11/2015  11:21:58  AM 	 Ventilation  (Quasi-sinusoidal) 		0.24	150				10																		
+15	 12/11/2015  11:21:58  AM 	 User  marker 	 Realizando  2  manobras  TLC.  From  script  '15_09_15_PBS_Cida_Z' 																								
+16	 12/11/2015  11:22:00  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  TLC) 								2.2027	22.998	30.436	2.1848	28.251	0.95002	28.255	1.1687	1.1659	48.579	0.94817	30.191						
+17	 12/11/2015  11:22:13  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  TLC) 								2.5303	23.025	30.539	2.499	28.04	0.88172	28.058	1.0969	1.0953	45.638	0.87957	30.183						
+18	 12/11/2015  11:22:19  AM 	 User  marker 	 PBS.  From  script  '15_09_15_PBS_Cida_Z' 																								
+19	 12/11/2015  11:22:51  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5851	3.2689	4.3289	2.3345	1.9943	0.084658	2.6817	0.095483					0.23323	0.00020756	3.5336	18.191	0.19425	0.99024
+20	 12/11/2015  11:23:02  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.52	3.135	4.2592	2.1384	2.1207	0.084279	2.7155	0.09552					0.24998	0.00014416	3.5026	19.274	0.18173	0.98914
+21	 12/11/2015  11:23:12  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3398	3.109	4.2315	2.1281	2.1034	0.083646	2.7836	0.095329					0.23093	0.00015913	3.5663	19.158	0.18616	0.99144
+22	 12/11/2015  11:23:23  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5335	3.1419	4.294	2.1124	2.1817	0.083259	2.7698	0.094642					0.24492	0.00011041	3.5854	19.377	0.18504	0.99058
+23	 12/11/2015  11:23:34  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4312	3.1051	4.2852	2.0946	2.1906	0.084555	2.9135	0.09574					0.23434	7.7854E-5	3.7213	19.205	0.19377	0.98267
+24	 12/11/2015  11:23:45  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4857	3.1294	4.3149	2.1353	2.1796	0.084358	2.8778	0.095747					0.24155	0.00010499	3.5653	19.517	0.18268	0.98342
+25	 12/11/2015  11:23:56  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5085	3.1372	4.285	2.1704	2.1146	0.082856	2.783	0.094813					0.23749	-4.8017E-5	3.5106	19.704	0.17817	0.99261
+26	 12/11/2015  11:24:07  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3295	3.0966	4.3047	2.0703	2.2343	0.08367	2.9177	0.09572					0.24646	-8.5693E-6	3.5717	19.5	0.18316	0.98652
+27	 12/11/2015  11:24:18  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4082	3.14	4.283	2.1218	2.1612	0.082163	2.7769	0.09447					0.24546	7.2791E-5	3.4825	19.666	0.17708	0.99459
+28	 12/11/2015  11:24:29  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3961	3.153	4.2885	2.1505	2.138	0.08431	2.761	0.095906					0.2443	6.5732E-5	3.5346	19.523	0.18105	0.99499
+29	 12/11/2015  11:24:40  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3417	3.1229	4.3139	2.1154	2.1985	0.083416	2.8079	0.095481					0.24455	2.686E-5	3.6174	19.364	0.18681	0.99097
+30	 12/11/2015  11:24:50  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4998	3.1231	4.327	2.116	2.2109	0.083266	2.9056	0.095115					0.23975	7.9613E-5	3.609	19.75	0.18274	0.99528
+31	 12/11/2015  11:25:01  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3755	3.1295	4.3159	2.0945	2.2214	0.083269	2.8171	0.095144					0.24548	0.00011287	3.6283	19.638	0.18476	0.99043
+32	 12/11/2015  11:25:12  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4566	3.1266	4.272	2.1049	2.1671	0.083879	2.8547	0.095073					0.24504	4.1468E-6	3.5706	19.652	0.18169	0.99201
+33	 12/11/2015  11:25:23  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3963	3.1462	4.2796	2.1108	2.1687	0.082459	2.7787	0.094754					0.24505	3.4323E-5	3.6406	19.605	0.1857	0.99062
+34	 12/11/2015  11:27:42  AM 	 Ventilation  (Quasi-sinusoidal) 		0.24	150				10																		
+37	 12/11/2015  11:27:47  AM 	 Ventilation  (Quasi-sinusoidal) 		0.24	150				10																		
+38	 12/11/2015  11:27:47  AM 	 User  marker 	 MCh  30  ug/kg.  From  script  '15_09_15_Mch_30ug-kg_Cida_Z' 																								
+(39)	 12/11/2015  11:28:58  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5293	3.1391	4.3501	2.0636	2.2865	0.084578	2.9468	0.095527					0.33375	-0.00032797	3.5307	20.269	0.17419	0.84925
+40	 12/11/2015  11:29:09  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4209	3.1512	4.3644	2.0953	2.2691	0.083357	2.9959	0.096057					0.25177	-0.00018981	4.0713	19.178	0.21229	0.95206
+41	 12/11/2015  11:29:20  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4712	3.0713	4.3411	2.051	2.2902	0.085221	3.037	0.09652					0.28419	0.00015687	3.8267	19.728	0.19397	0.98929
+42	 12/11/2015  11:29:31  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3543	3.0711	4.3405	2.0187	2.3218	0.083513	3.0299	0.096042					0.24048	-0.00011468	4.1115	19.061	0.2157	0.94115
+43	 12/11/2015  11:29:42  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5194	3.2434	4.6324	2.0813	2.5511	0.080992	3.2543	0.094427					0.29213	0.00018549	4.2421	24.602	0.17243	0.98753
+44	 12/11/2015  11:29:53  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4972	3.2212	4.6225	2.0838	2.5386	0.082288	3.2048	0.09517					0.28057	0.00028205	4.3954	24.351	0.1805	0.98906
+45	 12/11/2015  11:30:04  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3749	3.2058	4.6216	1.9568	2.6648	0.081396	3.3245	0.095611					0.24184	-1.6659E-5	4.5827	24.464	0.18733	0.95969
+46	 12/11/2015  11:30:15  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5237	3.2376	4.6286	2.0368	2.5918	0.081152	3.2211	0.094539					0.23692	0.00015971	4.5077	24.328	0.18529	0.93856
+47	 12/11/2015  11:30:25  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.458	3.2265	4.6089	2.0066	2.6023	0.080666	3.2779	0.094498					0.24069	-4.5137E-6	4.6093	24.485	0.18825	0.95936
+48	 12/11/2015  11:30:36  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4292	3.2672	4.6662	2.0738	2.5924	0.079851	3.2551	0.094296					0.31223	-0.00012597	4.2823	24.973	0.17148	0.93204
+49	 12/11/2015  11:30:47  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4845	3.2749	4.5954	2.1528	2.4426	0.081074	3.0951	0.0948					0.30516	0.00016551	4.2765	24.891	0.17181	0.9545
+50	 12/11/2015  11:30:58  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5216	3.2549	4.6454	2.0621	2.5833	0.081038	3.2686	0.094206					0.28215	0.00028101	4.3796	24.842	0.1763	0.9908
+51	 12/11/2015  11:31:09  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5367	3.266	4.6455	2.1289	2.5166	0.08103	3.172	0.094358					0.27769	0.00025161	4.4002	24.84	0.17714	0.99307
+52	 12/11/2015  11:31:20  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.467	3.2786	4.6812	2.1102	2.571	0.081773	3.1337	0.09548					0.3091	0.00012728	4.2866	25.027	0.17128	0.93962
+53	 12/11/2015  11:31:31  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3823	3.2255	4.66	1.992	2.6681	0.080249	3.3412	0.094742					0.28983	-0.00014991	4.447	25.15	0.17682	0.97962
+54	 12/11/2015  11:33:46  AM 	 Ventilation  (Quasi-sinusoidal) 		0.24	150				10																		
+57	 12/11/2015  11:33:52  AM 	 Ventilation  (Quasi-sinusoidal) 		0.24	150				10																		
+58	 12/11/2015  11:33:52  AM 	 User  marker 	 MCh  100  ug/kg.  From  script  '15_09_15_Mch_100ug-kg_Cida_Z  -' 																								
+59	 12/11/2015  11:34:26  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5561	3.3246	5.1172	1.9049	3.2123	0.080445	4.0847	0.09472					0.6152	-3.0342E-5	5.4807	25.588	0.21419	0.95126
+60	 12/11/2015  11:34:36  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4264	3.2699	5.1411	1.8501	3.291	0.079841	4.1002	0.094486					0.59018	-0.00010208	5.6051	25.359	0.22103	0.98659
+61	 12/11/2015  11:34:47  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4888	3.3291	5.0342	1.9669	3.0673	0.080125	3.7701	0.094933					0.43615	-9.9713E-5	5.4112	25.272	0.21412	0.94269
+62	 12/11/2015  11:34:58  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4903	3.3165	4.9113	1.9748	2.9366	0.07969	3.6556	0.094358					0.38138	-5.214E-5	4.9538	25.483	0.1944	0.99075
+63	 12/11/2015  11:35:09  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5182	3.2535	4.7961	1.9932	2.8029	0.081142	3.4733	0.094642					0.3489	-0.00011358	4.5725	25.54	0.17904	0.99401
+64	 12/11/2015  11:35:20  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5153	3.2736	4.7134	2.0399	2.6736	0.081164	3.3343	0.094874					0.28159	6.3408E-5	4.8021	24.822	0.19346	0.98309
+65	 12/11/2015  11:35:31  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5076	3.2575	4.6869	2.0256	2.6612	0.081481	3.2946	0.094502					0.30094	0.00011789	4.6166	24.992	0.18473	0.98202
+66	 12/11/2015  11:35:42  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4448	3.2556	4.6974	2.058	2.6395	0.080626	3.35	0.094338					0.26842	0.000163	4.6937	24.775	0.18946	0.98439
+67	 12/11/2015  11:35:53  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.494	3.2851	4.7107	1.9935	2.7172	0.080494	3.4063	0.094662					0.3014	1.9895E-6	4.4039	24.888	0.17695	0.97953
+68	 12/11/2015  11:36:04  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5077	3.2751	4.7257	2.0717	2.6539	0.081491	3.1318	0.095491					0.26234	-7.6266E-5	4.6377	24.622	0.18836	0.98694
+69	 12/11/2015  11:36:14  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5065	3.2693	4.6953	2.0318	2.6635	0.08077	3.3373	0.094564					0.29135	-0.00011649	4.3946	25.106	0.17504	0.97616
+70	 12/11/2015  11:36:25  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4083	3.2697	4.7013	1.9775	2.7238	0.080183	3.4169	0.094488					0.29522	0.00014011	4.4817	25.003	0.17924	0.98967
+71	 12/11/2015  11:36:36  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4829	3.2552	4.6742	1.9946	2.6796	0.08056	3.2739	0.094305					0.28951	0.00016103	4.5888	25.268	0.1816	0.98892
+72	 12/11/2015  11:36:47  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4923	3.2868	4.742	2.0511	2.6909	0.081295	3.3223	0.095177					0.28056	7.2428E-5	4.6365	25.047	0.18511	0.99219
+73	 12/11/2015  11:36:58  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5042	3.261	4.6749	2.0444	2.6305	0.080411	3.307	0.093996					0.27633	-2.0015E-5	4.6446	24.931	0.1863	0.995
+74	 12/11/2015  11:39:13  AM 	 Ventilation  (Quasi-sinusoidal) 		0.24	150				10																		
+77	 12/11/2015  11:39:18  AM 	 Ventilation  (Quasi-sinusoidal) 		0.24	150				10																		
+78	 12/11/2015  11:39:18  AM 	 User  marker 	 MCh  300  ug/kg.  From  script  '15_09_15_Mch_300  ug-kg_Cida_Z' 																								
+79	 12/11/2015  11:39:46  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4973	3.4155	7.5689	0.29598	7.2729	0.076082	7.8567	0.094378					3.2585	-0.0039265	10.562	23.209	0.45508	0.96683
+80	 12/11/2015  11:39:57  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5731	3.5636	8.1177	0.50765	7.61	0.075417	8.2475	0.094405					3.6902	-0.0053044	10.765	24.021	0.44812	0.95224
+81	 12/11/2015  11:40:08  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5373	3.546	7.3343	0.87313	6.4612	0.076417	7.1825	0.094971					2.4696	-0.0025522	8.6995	26.483	0.32849	0.96385
+82	 12/11/2015  11:40:19  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5306	3.4903	6.3227	1.5077	4.8149	0.078443	5.5973	0.095165					1.343	-0.001083	6.9554	27.053	0.2571	0.9842
+83	 12/11/2015  11:40:30  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5154	3.3539	5.4772	1.7744	3.7028	0.07906	4.5658	0.094575					0.77886	-0.00024266	5.9942	27.519	0.21782	0.98514
+84	 12/11/2015  11:40:41  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4057	3.3687	5.2217	1.8243	3.3974	0.079048	4.0926	0.095133					0.52723	-4.1807E-5	5.4505	27.812	0.19598	0.99395
+85	 12/11/2015  11:40:51  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3878	3.3398	5.0374	2.0037	3.0337	0.078875	3.7392	0.094535					0.38771	5.3811E-5	5.2196	26.271	0.19868	0.97777
+86	 12/11/2015  11:41:02  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3846	3.2953	4.9191	1.9274	2.9917	0.079693	3.7042	0.094586					0.35603	-4.487E-5	5.0608	26.457	0.19128	0.97785
+87	 12/11/2015  11:41:13  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5009	3.3401	4.852	1.9548	2.8973	0.080232	3.559	0.095329					0.32642	0.00023417	5.2192	25.752	0.20268	0.9924
+88	 12/11/2015  11:41:24  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.3982	3.3398	4.9602	1.9706	2.9897	0.079416	3.6801	0.094658					0.36267	5.0322E-5	5.1946	27.767	0.18708	0.99399
+89	 12/11/2015  11:41:35  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4953	3.3584	4.9218	2.0077	2.9141	0.079183	3.5864	0.094769					0.35398	7.8587E-5	5.1619	27.501	0.1877	0.99053
+90	 12/11/2015  11:41:46  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5037	3.3422	4.9307	1.953	2.9777	0.080197	3.6492	0.095043					0.33466	0.00010563	5.228	27.292	0.19156	0.99392
+91	 12/11/2015  11:41:57  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4218	3.3566	4.9485	2.0302	2.9184	0.079844	3.6099	0.095381					0.33415	9.4157E-6	4.9226	27.634	0.17814	0.9959
+92	 12/11/2015  11:42:08  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4725	3.3472	4.929	2.0107	2.9183	0.079278	3.5611	0.094763					0.32607	3.2459E-5	5.018	27.541	0.1822	0.9917
+93	 12/11/2015  11:42:18  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5318	3.3439	4.8982	2.0425	2.8557	0.080064	3.4543	0.095186					0.32525	0.00015266	4.9972	27.352	0.1827	0.9905
+94	 12/11/2015  11:44:37  AM 	 Ventilation  (Quasi-sinusoidal) 		0.24	150				10																		
+97	 12/11/2015  11:44:40  AM 	 Ventilation  (Quasi-sinusoidal) 		0.24	150				10																		
+98	 12/11/2015  11:44:41  AM 	 User  marker 	 MCh  1000  ug/kg.  From  script  '15_09_15_Mch_1000  ug-kg_Cida_Z' 																								
+(99)	 12/11/2015  11:45:03  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.7536	4.435	10.689	0.081015	10.608	0.065568	10.986	0.094359					7.0952	-0.011079	22.176	20.378	1.0882	0.86752
+(100)	 12/11/2015  11:45:13  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.7049	4.7062	11.618	-0.11433	11.733	0.058136	12.053	0.09407					7.7742	-0.014222	32.254	24.723	1.3046	0.77967
+(101)	 12/11/2015  11:45:24  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.7113	4.5508	11.094	0.051089	11.043	0.060144	11.381	0.094296					7.4462	-0.017128	28.474	27.457	1.037	0.81883
+(102)	 12/11/2015  11:45:35  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.6568	4.0949	9.6924	0.25485	9.4376	0.067792	9.8678	0.094428					5.9212	-0.01197	18.395	30.594	0.60127	0.91986
+103	 12/11/2015  11:45:46  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5312	4.093	8.5587	0.78446	7.7743	0.067743	8.3013	0.094098					3.5648	-0.0046639	15.305	44.087	0.34715	0.9829
+104	 12/11/2015  11:45:57  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4965	3.8449	7.3259	1.1869	6.139	0.071109	6.7358	0.093992					1.9501	-0.0014674	10.638	41.121	0.25871	0.98414
+105	 12/11/2015  11:46:08  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5426	3.7726	6.6257	1.5305	5.0952	0.073623	5.7127	0.094084					1.3109	-0.00088619	8.5611	39.345	0.21759	0.98633
+106	 12/11/2015  11:46:19  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.4907	3.6683	6.1292	1.7495	4.3797	0.075049	5.0699	0.094459					0.96577	-0.00033467	7.1757	35.11	0.20438	0.98483
+107	 12/11/2015  11:46:30  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.569	3.7824	6.2162	1.8208	4.3954	0.074715	5.0082	0.095306					0.87265	-0.00030115	7.815	39.957	0.19559	0.99007
+108	 12/11/2015  11:46:41  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5715	3.6099	5.7796	1.8826	3.8971	0.077021	4.5406	0.094784					0.69776	-9.1464E-5	6.4332	34.985	0.18389	0.98403
+109	 12/11/2015  11:46:51  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.493	3.665	5.7705	1.933	3.8374	0.075426	4.4433	0.095072					0.58547	-5.8743E-5	6.667	36.663	0.18185	0.99531
+110	 12/11/2015  11:47:02  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5077	3.7161	5.7314	1.9842	3.7472	0.074972	4.3863	0.094399					0.54368	6.5384E-6	6.3815	37.096	0.17203	0.99054
+111	 12/11/2015  11:47:13  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5501	3.6431	5.6207	1.9471	3.6735	0.076699	4.2835	0.094982					0.50223	-5.1707E-5	6.5907	36.505	0.18054	0.99624
+112	 12/11/2015  11:47:24  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5121	3.6459	5.6151	1.9618	3.6532	0.076476	4.17	0.095192					0.46829	3.4111E-5	6.6304	36.32	0.18255	0.99338
+113	 12/11/2015  11:47:35  AM 	 Data  set  (Magra  OVA  eosinofilica  Bude  3,  Quick  Prime-3  v5.2) 								2.5645	3.6373	5.552	1.995	3.557	0.076261	4.0612	0.094755					0.45307	-0.00011795	6.4234	36.137	0.17775	0.99687
+115	 12/11/2015  11:48:38  AM 	 Ventilation  (Stop) 																									
+116	 12/11/2015  11:49:37  AM 	 Application  marker 	 Experiment  closed. 																								
